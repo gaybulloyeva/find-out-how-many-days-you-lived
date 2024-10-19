@@ -1,0 +1,61 @@
+:root {
+    --gray: #f2f2f2;
+    --text-color: #f1bd04;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: var(--gray);
+}
+
+.intro-card {
+    color: var(--text-color);
+    text-align: center;
+    margin-top: 200px;
+}
+
+h1 {
+    font-size: 55px;
+    text-transform: capitalize;
+}
+
+img{
+    position: relative;
+    top: 100px;
+    width: 150px;
+    height: 100px;
+}
+
+p {
+    margin-top: 30px;
+    color: gray;
+}
+
+.start-btn {
+    cursor: pointer;
+    margin-top: 50px;
+    width: 130px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid var(--text-color);
+    transition: 0.2s;
+}
+
+.start-btn:hover{
+    box-shadow: 0 0 10px 2px rgba(128, 128, 128, 0.574);
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
